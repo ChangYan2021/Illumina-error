@@ -5,5 +5,6 @@ Next generation sequencing methods usually have noticeable error rate. Pair-end 
 This is a python script uses aligned BAM file as input to merge up paired end read by overlap while correct the system errors. At the same time, it could record and generate statistical analysis (include visualization) of system error.
 
 Usage (arguments within squared brackets are optional):
+  
   python |illumina_error_pair_read.py| --input_bamfile <input.bam> --ref <reference.fasta> [--index <index.bai>] [--output <output filename>]
   
