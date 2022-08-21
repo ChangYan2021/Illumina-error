@@ -438,7 +438,7 @@ try:
 	output_upstream_plot = open(f"{filename}_upstream_plot.eps",'wb')
 	output_upstream_plot.write(eps)
 	output_upstream_plot.close()
-	#os.system(f"rm {filename}_upstream.fasta")
+	os.system(f"rm {filename}_upstream.fasta")
 except FileNotFoundError:
 	errorLogger.error('Fail to draw Upstream Weblogo plot. Please double check.')
 
